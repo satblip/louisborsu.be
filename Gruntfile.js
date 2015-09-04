@@ -66,8 +66,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
-  grunt.registerTask('default', ['less:development']);
+  grunt.registerTask('less', ['less:development']);
   grunt.registerTask('js', ['concat:dist', 'uglify:dist']);
+
+  grunt.registerTask('server', ['http-server']);
 
 
 };
