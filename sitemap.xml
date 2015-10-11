@@ -6,8 +6,38 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>http://louisborsu.be/</loc>
-  <lastmod>2015-09-04T15:37:08+00:00</lastmod>
+  <loc>https://louisborsu.be/</loc>
+  <lastmod>2015-10-11T15:07:08+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://louisborsu.be/louis-certifications/UNM-certificat.pdf</loc>
+  <lastmod>2015-10-11T15:37:08+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://louisborsu.be/louis-certifications/OC-Startup.pdf</loc>
+  <lastmod>2015-10-11T15:38:08+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://louisborsu.be/louis-certifications/OC-Node.pdf</loc>
+  <lastmod>2015-10-11T15:39:08+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://louisborsu.be/louis-certifications/EA-certificat.pdf</loc>
+  <lastmod>2015-10-11T15:40:08+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://louisborsu.be/louis-certifications/OC-certificat.pdf</loc>
+  <lastmod>2015-10-11T15:37:41+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+</url>
+<url>
+  <loc>https://louisborsu.be/louis-certifications/AP-certificat.pdf</loc>
+  <lastmod>2015-10-11T15:37:42+00:00</lastmod>
   <changefreq>monthly</changefreq>
 </url>
 </urlset>
