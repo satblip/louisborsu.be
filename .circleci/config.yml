@@ -8,8 +8,6 @@ jobs:
       - checkout
 
   deploy:
-    machine:
-      enabled: true
     docker:
       - image: circleci/python:2.7
     working_directory: ~/src
