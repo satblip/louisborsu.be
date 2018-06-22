@@ -1,0 +1,34 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:2.7
+    working_directory: ~/src
+    steps:
+      - checkout
+
+  deploy:
+    machine:
+      enabled: true
+    docker:
+      - image: circleci/python:2.7
+    working_directory: ~/src
+    steps:
+      - run:
+          name: Install awscli
+          command: sudo pip install awscli
+      - run:
+          name: Push to s3
+          command: 'aws s3 sync . s3://louisborsu.be --region eu-west-1'
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
